@@ -8,43 +8,43 @@
     background-image: linear-gradient((180 deg,rgba(0,0,0,0.7),10%,transparent));
     z-index: -1;
 }
-.navbar-left{
+.nav-left{
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.navbar-left img{
+.nav-left img{
     width: 90px;
 }
-.navbar-left ul{
+.nav-left ul{
     display: flex;
     list-style: none;
     gap: 20px;
 }
-.navbar-left ul li{
+.nav-left ul li{
     cursor: pointer;
 }
-.navbar-right{
+.nav-right{
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.navbar-right .icons{
+.nav-right .icons{
     width: 20px;
     cursor: pointer;
 }
-.navbar-right .profile{
+.nav-right .profile{
     border-radius: 4px;
     width: 35px;
 }
-.navbar-profile{
+.nav-profile{
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
     position: relative;
 }
-.navbar .dropdown{
+.nav-profile .dropdown{
     position: absolute;
     top: 100%;
     right: 0;
@@ -56,10 +56,41 @@
     z-index: 1;
     display: none;
 }
-.navbar .dropdown p{
+.nav-profile .dropdown p{
     font-size: 13px;
     cursor: pointer;
 }
-.navbar-profile:hover .dropdown{
+.nav-profile:hover .dropdown{
     display:block
+}
+.hero-btns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.hero-btns .btn img{
+    width: 25px;
+}
+.hero-btns .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero-btns .btn .dark-btn{
+    color: #fff;
+    background: #6d6d6d;
+}
+.hero-btns .btn:hover{
+    background: #ffffffbf;
+}
+.hero-btns .btn .dark-btn:hover{
+    background: #6d6d6e66;
 }
