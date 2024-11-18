@@ -1,0 +1,17 @@
+[33mcommit 41d5b426f4646408023c41a17cdd3ecb758bf6e7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Allwin P G <allwin.george19@gmail.com>
+Date:   Sun Nov 17 17:46:28 2024 +0530
+
+    homepage finished
+
+[33mcommit f75af78b6dd6b6319911b73adbf3248d377d5ede[m[33m ([m[1;31mhub/master[m[33m)[m
+Author: Allwin P G <allwin.george19@gmail.com>
+Date:   Sat Nov 16 02:07:15 2024 +0530
+
+    second commit after structuring folders and navbar building
+
+[33mcommit 7e2fcd5422eb778e8cdefa3e97a91035f7f2c261[m
+Author: Allwin P G <allwin.george19@gmail.com>
+Date:   Fri Nov 15 20:48:22 2024 +0530
+
+    Initialize project using Create React App
